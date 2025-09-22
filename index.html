@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tyler Donovan</title>
+        <link rel="stylesheet" href="styles/styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="main-container">
+            <div class="sidebar">
+                <div class="introduction-container">
+                    <img class="headshot" src="resources/headshot.png" alt="Tyler Donovan"/>
+                    <h1>Tyler Donovan</h1>
+                    <h3 class="no-margin">AI Engineer</h3>
+                    <h3 class="no-margin">Student-Athlete</h3>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-section">
+                        <p>tylerdonovan1506@gmail.com</p>
+                    </div>
+                    <div class="contact-section">
+                        <p>+1 (586)-202-4014</p>
+                    </div>
+                    <div class="contact-section">
+                        <p>Clinton Township, MI</p>
+                    </div>
+                </div>
+                <div class="socials-container">
+                    <a href="https://github.com/tylerdonovan2">
+                        <img class="social-icon" src="resources/github.svg" alt="Github"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tyler-m-donovan2/">
+                        <img class="social-icon" src="resources/linkedin.svg" alt="Linked In"/>
+                    </a>
+                </div>
+            </div>
+            <div class="page-container">
+                <div class="page-header">
+                    <div class="page-title-container">
+                        <h1 class="page-title">About</h1>
+                    </div>
+                    <div class="page-navigator">
+                        <div id="about" class="page-navigator-button selected">
+                            <h3>About</h3>
+                        </div>
+                        <div id="project1" class="page-navigator-button">
+                            <h3>Project 1</h3>
+                        </div>
+                        <div id="project2" class="page-navigator-button">
+                            <h3>Project 2</h3>
+                        </div>
+                        <div id="project3" class="page-navigator-button">
+                            <h3>Project 3</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-view">
+                    <div class="page" id="about-page">
+                        <div class="page-section">
+                            <h2>Introduction</h2>
+                            <div class="page-subsection">
+                                <p>Software Developer/AI Engineer with several years of experience spanning coursework, personal projects, internships, and freelance work. Proficient in Python and JavaScript, with additional experience in many languages such as C#, C++, Java, Go, and HTML/CSS. Skilled in various Python libraries and frameworks including pandas/polars, scikit-learn, plotly, numpy, dash, and flask. Currently pursuing a degree in Artificial Intelligence at Oakland University while competing for the school as a track athlete.</p>
+                            </div>
+                        </div>
+                        <div class="page-section">
+                            <h2>Work Experience</h2>
+                            <div class="page-subsection">
+                                <h3 class="no-margin">OneStream Software</h3>
+                                <h4 class="no-margin space-between subtle-text">
+                                    <span>AI Engineer</span>
+                                    <span>June 2025 - August 2025</span>
+                                </h4>
+                                <p>Worked on an Ensemble SHAP Feature Impact Routine for SensibleAI Studio that used Feature Importance Rank Ensembling to find the most important features in a given dataset. Made an interactive dash web application to give the user insights into a feature's impact on the outcome variable. Used Python and libraries such as scikit-learn, polars, plotly, dash.</p>
+                            </div>
+                            <div class="page-subsection">
+                                <h3 class="no-margin">DataAnnotation.tech</h3>
+                                <h4 class="no-margin space-between subtle-text">
+                                    <span>Freelance DataAnnotator</span>
+                                    <span>May 2024 - December 2024</span>
+                                </h4>
+                                <p>Worked on annotating data used to train LLMs. Work consisted mainly of software development and debugging code written by LLMs. Used Python and libraries such as pandas, matplotlib, and altair.</p>
+                            </div>
+                        </div>
+                        <div class="page-section">
+                            <h2>Education</h2>
+                            <div class="page-subsection">
+                                <h3 class="no-margin">Oakland University</h3>
+                                <h4 class="no-margin space-between subtle-text">
+                                    <span>Pursuing A Degree in Artificial Intelligence</span>
+                                    <span>September 2024 - May 2028</span>
+                                </h4>
+                                <p class="no-margin">3.79 GPA</p>
+                                <p class="no-margin">Division 1 Track Athlete</p>
+                            </div>
+                            <div class="page-subsection">
+                                <h3 class="no-margin">Macomb Mathematics Science Technology Center</h3>
+                                <h4 class="no-margin space-between subtle-text">
+                                    <span>High School Diploma</span>
+                                    <span>September 2020 - May 2024</span>
+                                </h4>
+                                <p class="no-margin">4.10 GPA</p>
+                                <p class="no-margin">All State Track Captain</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page hidden" id="project1-page">
+                        <div class="page-section">
+                            <p>Project 1 will show here</p>
+                        </div>
+                    </div>
+                    <div class="page hidden" id="project2-page">
+                        <div class="page-section">
+                            <p>Project 2 will show here</p>
+                        </div>
+                    </div>
+                    <div class="page hidden" id="project3-page">
+                        <div class="page-section">
+                            <p>Project 3 will show here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="scripts/index.js"></script>
+</html>
