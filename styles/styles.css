@@ -484,11 +484,11 @@ main{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #444444;
+    background: #ff5f57;
 }
 
-.code-card-bar i:nth-child(2){ background: #444444; }
-.code-card-bar i:nth-child(3){ background: #444444; }
+.code-card-bar i:nth-child(2){ background: #febc2e; }
+.code-card-bar i:nth-child(3){ background: #28c840; }
 
 .code-card-bar span{
     margin-left: 8px;
@@ -507,12 +507,12 @@ main{
     overflow-x: auto;
 }
 
-.tk-k{ color: #ffffff; font-weight: 500; }
-.tk-s{ color: #9a9a9a; }
-.tk-f{ color: #ffffff; }
-.tk-d{ color: #bdbdbd; }
-.tk-t{ color: #bdbdbd; }
-.tk-n{ color: #ffffff; }
+.tk-k{ color: #c792ea; }
+.tk-s{ color: #c3e88d; }
+.tk-f{ color: #82aaff; }
+.tk-d{ color: #89ddff; }
+.tk-t{ color: #ffcb6b; }
+.tk-n{ color: #f78c6c; }
 
 .scroll-hint{
     position: absolute;
@@ -866,36 +866,6 @@ main{
     color: var(--accent);
 }
 
-/* --- Contact --- */
-.contact-card{
-    text-align: center;
-    padding: 56px 28px;
-    overflow: hidden;
-}
-
-.contact-title{
-    font-size: clamp(1.8rem, 5vw, 2.8rem) !important;
-    letter-spacing: -0.03em;
-    background: var(--gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.contact-card p{
-    color: var(--text-muted);
-    max-width: 480px;
-    margin: 16px auto 0;
-}
-
-.contact-actions{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 32px;
-}
-
 /* --- Footer --- */
 .footer{
     text-align: center;
@@ -1040,13 +1010,6 @@ main{
         font-size: 1.8rem;
     }
 
-    .contact-actions .btn{
-        width: 100%;
-    }
-
-    .copy-label{
-        overflow-wrap: anywhere;
-    }
 }
 
 @media (hover: none){
