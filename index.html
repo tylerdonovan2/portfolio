@@ -1,212 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script>document.documentElement.classList.add("js");</script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tyler Donovan</title>
-        <link rel="stylesheet" href="styles/styles.css"/>
+        <title>Tyler Donovan | AI Engineer</title>
+        <meta name="description" content="Tyler Donovan — AI Engineer and Division 1 student-athlete at Oakland University. Python, machine learning, agentic AI, and the Model Context Protocol.">
+        <meta property="og:title" content="Tyler Donovan | AI Engineer">
+        <meta property="og:description" content="AI Engineer and Division 1 student-athlete at Oakland University.">
+        <meta property="og:image" content="resources/headshot.png">
+        <meta name="theme-color" content="#07080c">
+        <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307080c'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='700' font-size='28' fill='%2322d3ee'%3ETD%3C/text%3E%3C/svg%3E">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css"/>
     </head>
     <body>
-        <div class="background"></div>
-        <div class="main-container">
-            <div class="sidebar">
-                <div class="headshot-container">
-                    <img class="headshot" src="resources/headshot.png" alt="Tyler Donovan"/>
-                </div>
-                <div class="title-container">
-                    <h1>Tyler Donovan</h1>
-                    <h3 class="no-margin">AI Engineer</h3>
-                    <h3 class="no-margin">Student-Athlete</h3>
-                </div>
-                <div class="contact-container">
-                    <div class="contact-section">
-                        <p>tylerdonovan1506@gmail.com</p>
-                    </div>
-                    <div class="contact-section">
-                        <p>+1 (586)-202-4014</p>
-                    </div>
-                    <div class="contact-section">
-                        <p>Clinton Township, MI</p>
-                    </div>
-                </div>
-                <div class="socials-container">
-                    <a href="https://github.com/tylerdonovan2">
-                        <img class="social-icon" src="resources/github.svg" alt="Github"/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/tyler-m-donovan2/">
-                        <img class="social-icon" src="resources/linkedin.svg" alt="Linked In"/>
-                    </a>
-                </div>
-            </div>
-            <div class="page-container">
-                <div class="page-header">
-                    <div class="page-title-container">
-                        <h1 class="page-title">About</h1>
-                    </div>
-                    <div class="page-navigator">
-                        <div id="about" class="page-navigator-button selected">
-                            <h3>About</h3>
-                        </div>
-                        <div id="hobbies" class="page-navigator-button">
-                            <h3>Hobbies</h3>
-                        </div>
-                        <div id="projects" class="page-navigator-button">
-                            <h3>Projects</h3>
-                        </div>
-<!--                        <div id="project2" class="page-navigator-button">-->
-<!--                            <h3>Project 2</h3>-->
-<!--                        </div>-->
-<!--                        <div id="project3" class="page-navigator-button">-->
-<!--                            <h3>Project 3</h3>-->
-<!--                        </div>-->
-                    </div>
-                </div>
-                <div class="page-view">
-                    <div class="page" id="about-page">
-                        <div class="page-section">
-                            <h2>Introduction</h2>
-                            <div class="page-subsection">
-                                <p>I am a 19 year old Student-Athlete and Software Developer/AI Engineer with several years of experience spanning coursework, personal projects, internships, and freelance work. Proficient in Python and JavaScript, with additional experience in many languages such as C#, C++, Java, Go, and HTML/CSS. Skilled in various Python libraries and frameworks including pandas/polars, scikit-learn, plotly, numpy, dash, and flask. Currently pursuing a degree in Artificial Intelligence at Oakland University while competing for the school as a track athlete.</p>
-                            </div>
-                        </div>
-                        <div class="page-section">
-                            <h2>Work Experience</h2>
-                            <div class="page-subsection">
-                                <h3 class="no-margin">OneStream Software</h3>
-                                <h4 class="no-margin space-between subtle-text">
-                                    <span>AI Engineer</span>
-                                    <span>June 2025 - August 2025</span>
-                                </h4>
-                                <p>Worked in a large codebase developing an Ensemble SHAP Feature Impact Routine for SensibleAI Studio that used Feature Importance Rank Ensembling to find the most important features in a given dataset. Made an interactive dash web application to give the user insights into a feature's impact on the outcome variable. Used Python and libraries such as scikit-learn, polars, plotly, dash.</p>
-                            </div>
-                            <div class="page-subsection">
-                                <h3 class="no-margin">DataAnnotation.tech</h3>
-                                <h4 class="no-margin space-between subtle-text">
-                                    <span>Freelance DataAnnotator</span>
-                                    <span>May 2024 - December 2024</span>
-                                </h4>
-                                <p>Worked on annotating data used to train LLMs. Work consisted mainly of software development and debugging code written by LLMs. Used Python and libraries such as pandas, matplotlib, and altair.</p>
-                            </div>
-                        </div>
-                        <div class="page-section">
-                            <h2>Education</h2>
-                            <div class="page-subsection">
-                                <h3 class="no-margin">Oakland University</h3>
-                                <h4 class="no-margin space-between subtle-text">
-                                    <span>Pursuing A Degree in Artificial Intelligence</span>
-                                    <span>September 2024 - May 2028</span>
-                                </h4>
-                                <p class="no-margin">3.79 GPA</p>
-                                <p class="no-margin">Division 1 Track Athlete</p>
-                            </div>
-                            <div class="page-subsection">
-                                <h3 class="no-margin">Macomb Mathematics Science Technology Center</h3>
-                                <h4 class="no-margin space-between subtle-text">
-                                    <span>High School Diploma</span>
-                                    <span>September 2020 - May 2024</span>
-                                </h4>
-                                <p class="no-margin">4.10 GPA</p>
-                                <p class="no-margin">All State Track Captain</p>
-                            </div>
-                        </div>
-                        <div class="page-section">
-                            <h2>Skills</h2>
-                            <div class="page-subsection">
-                                <div class="skill-container">
-                                    <div class="skill">
-                                        <h4 class="no-margin">Python</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">Javascript</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">AI/ML</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">Polars/Pandas</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">Plotly</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">NumPy</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">Scikit-learn</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">PyTorch</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">Tensorflow</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">Problem Solving</h4>
-                                    </div>
-                                    <div class="skill">
-                                        <h4 class="no-margin">Communication</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="page hidden" id="projects-page">
-                        <div class="page-section">
-                            <h2>Deep Q-Network Racecar</h2>
-                            <p>A car learns to navigate a track using a technique in machine learning called Deep Q Learning. Written in Python using PyTorch I implemented a custom python openai gym environment for a game built in pygame. Then used Pytorch to train the DeepQ Network on the openaigym environment.</p>
-                            <img src="resources/dqn-showcase.gif" alt="Deep Q Car" width="300" height="300"/>
-                        </div>
-                        <div class="page-section">
-                            <h2>Python Sudoku Solver</h2>
-                            <p>A program that uses depth first search to solve any Sudoku puzzle.</p>
-                            <img src="resources/sudoku-showcase.gif" alt="Deep Q Car" width="300" height="300"/>
-                        </div>
-                    </div>
-                    <div class="page hidden" id="hobbies-page">
-                        <div class="page-section">
-                            <h2>Sports</h2>
-                            <div class="page-subsection">
-                                <h3 class="no-margin">Snowboarding</h3>
-                                <p>I have snowboarded almost my entire life. It is my favorite thing to do in the Winter and actually makes the cold months enjoyable.</p>
-                            </div>
-                            <div class="page-subsection">
-                                <h3 class="no-margin">Soccer</h3>
-                                <p>I played soccer for most of my life as well. I quit to pursue Track at a higher level because it became too much on my body to do both.</p>
-                            </div>
-                            <div class="page-subsection">
-                                <h3 class="no-margin">Golf</h3>
-                                <p>I just recently started golfing and like to go as often as possible. I currently shoot in the 80's on average (14hcp). The courses here at Oakland are insanely nice!</p>
-                            </div>
-                        </div>
-                        <div class="page-section">
-                            <h2>Programming</h2>
-                            <div class="page-subsection">
-                                <p>I learned to program when I was in sixth grade and fell in love. I have learned many different languages over the years although my favorite is Python. I am really into Artificial Intelligence and just recently finished a Summer internship at OneStream Software working as an AI Engineer.</p>
-                            </div>
-                        </div>
-                        <div class="page-section">
-                            <h2>Music</h2>
-                            <div class="page-subsection">
-                                <p>I love music and I almost never stop playing it. I will pretty much listen to anything, however, some of my favorites are Zach Bryan, Brent Faiyaz, SZA, Drake, and Rihanna</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="page hidden" id="project2-page">
-                        <div class="page-section">
-                            <p>Project 2 will show here</p>
-                        </div>
-                    </div>
-                    <div class="page hidden" id="project3-page">
-                        <div class="page-section">
-                            <p>Project 3 will show here</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="bg" aria-hidden="true">
+            <div class="bg-grid"></div>
+            <div class="bg-orb bg-orb-1"></div>
+            <div class="bg-orb bg-orb-2"></div>
         </div>
+        <div class="cursor-glow" aria-hidden="true"></div>
+
+        <header class="nav">
+            <a href="#top" class="nav-logo" aria-label="Back to top">TD<span>.</span></a>
+            <nav class="nav-links" aria-label="Sections">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+        </header>
+
+        <main id="top">
+            <!-- Hero -->
+            <section class="hero">
+                <div class="hero-text">
+                    <p class="eyebrow"><span class="status-dot"></span>2× AI Engineering Intern @ OneStream</p>
+                    <h1 class="hero-title">
+                        Tyler Donovan
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I build <span class="typed" data-words="agentic AI tools.|MCP servers & apps.|ML-powered analytics.|interactive Dash apps."></span><span class="caret"></span>
+                    </h2>
+                    <p class="hero-blurb">
+                        AI student and Division 1 Track &amp; Field athlete at Oakland University. I build data
+                        tooling and AI agents in Python, using pandas, polars, scikit-learn, and FastMCP.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#experience" class="btn btn-primary">View my work</a>
+                        <a href="mailto:tylerdonovan1506@gmail.com" class="btn btn-ghost">Get in touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/tylerdonovan2" target="_blank" rel="noopener" aria-label="GitHub">
+                            <img src="resources/github.svg" alt=""/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tyler-m-donovan2/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <img src="resources/linkedin.svg" alt=""/>
+                        </a>
+                        <span class="hero-location">Clinton Township, MI</span>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="headshot-ring">
+                        <img class="headshot" src="resources/headshot.png" alt="Tyler Donovan"/>
+                    </div>
+                    <div class="code-card" aria-hidden="true">
+                        <div class="code-card-bar"><i></i><i></i><i></i><span>tyler.py</span></div>
+<pre><code><span class="tk-k">from</span> fastmcp <span class="tk-k">import</span> FastMCP
+
+mcp = FastMCP(<span class="tk-s">"tyler"</span>)
+
+<span class="tk-d">@mcp.tool</span>
+<span class="tk-k">def</span> <span class="tk-f">about</span>() -> <span class="tk-t">dict</span>:
+    <span class="tk-k">return</span> {
+        <span class="tk-s">"role"</span>: <span class="tk-s">"AI Engineer"</span>,
+        <span class="tk-s">"school"</span>: <span class="tk-s">"Oakland U"</span>,
+        <span class="tk-s">"gpa"</span>: <span class="tk-n">3.8</span>,
+        <span class="tk-s">"sport"</span>: <span class="tk-s">"D1 Track"</span>,
+    }</code></pre>
+                    </div>
+                </div>
+                <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+            </section>
+
+            <!-- About -->
+            <section id="about" class="section reveal">
+                <div class="section-head">
+                    <span class="section-num">01</span>
+                    <h2>About</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I'm an <strong>Artificial Intelligence</strong> student at Oakland University and I compete
+                            for the school in <strong>Division 1 Track &amp; Field</strong>. I've been writing Python for
+                            several years, and these days most of my work is data tooling and AI agents.
+                        </p>
+                        <p>
+                            I've done two summers as an AI Engineering Intern at <strong>OneStream Software</strong>. In
+                            2025 I worked on explainability (ensemble SHAP feature impact). In 2026 I worked on agentic AI,
+                            building <strong>MCP apps and tools</strong> that let agents analyze time series data and show
+                            charts right in the chat.
+                        </p>
+                        <p>
+                            Training and racing on a D1 team has taught me discipline, consistency, and how to work
+                            as part of a team. I work just as well on my own when a problem needs a lot of focus.
+                        </p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-value" data-count="2">0</span>
+                            <span class="stat-label">AI engineering internships</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value" data-count="3.8" data-decimals="1">0</span>
+                            <span class="stat-label">GPA at Oakland University</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">D1</span>
+                            <span class="stat-label">Track &amp; Field athlete</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">'28</span>
+                            <span class="stat-label">Expected graduation</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section id="experience" class="section reveal">
+                <div class="section-head">
+                    <span class="section-num">02</span>
+                    <h2>Experience</h2>
+                </div>
+                <ol class="timeline">
+                    <li class="timeline-item">
+                        <div class="card">
+                            <div class="card-head">
+                                <div>
+                                    <h3>AI Engineering Intern</h3>
+                                    <p class="card-org">OneStream Software</p>
+                                </div>
+                                <span class="date">Jun 2026 – Aug 2026</span>
+                            </div>
+                            <p class="card-tagline">MCP: modernizing how businesses interact with their data</p>
+                            <ul class="bullets">
+                                <li>Modernized the Time Series Data Analysis (TSDA) routine for SensibleAI Studio on a two-person team, adding a three-tab Dash app (Overview, Behavior, Lag Structure) and MCP apps and tools built with FastMCP.</li>
+                                <li>Made it possible for AI agents to review runs, flag problem targets, drill into individual series, and render charts inline in chat.</li>
+                                <li>Built exploratory analysis across grouping levels and time granularities, with quality metrics, forecast-readiness scores, STL decomposition, and ACF/PACF diagnostics.</li>
+                                <li>Surfaced data-quality issues (missing values, zeros, low density, truncated lifecycles) with configurable thresholds and Region / Product / Variant drill-down.</li>
+                                <li>Wrote business objectives, designed the implementation, reviewed PRs, tracked work in Jira, and used Cursor.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li><li>FastMCP</li><li>Agentic AI</li><li>Dash</li><li>Time Series</li><li>STL</li><li>Jira</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="card">
+                            <div class="card-head">
+                                <div>
+                                    <h3>AI Engineering Intern</h3>
+                                    <p class="card-org">OneStream Software</p>
+                                </div>
+                                <span class="date">Jun 2025 – Aug 2025</span>
+                            </div>
+                            <ul class="bullets">
+                                <li>Developed an Ensemble SHAP Feature Impact Routine for SensibleAI Studio as part of a team working in a large codebase, using Feature Importance Rank Ensembling to find the most important features in a dataset.</li>
+                                <li>Built an interactive Dash app that shows how each feature affects the outcome variable.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li><li>SHAP</li><li>scikit-learn</li><li>polars</li><li>plotly</li><li>Dash</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="card">
+                            <div class="card-head">
+                                <div>
+                                    <h3>Freelance Data Annotator</h3>
+                                    <p class="card-org">DataAnnotation.tech</p>
+                                </div>
+                                <span class="date">May 2024 – Dec 2024</span>
+                            </div>
+                            <ul class="bullets">
+                                <li>Annotated data used to train large language models (LLMs), focusing on software development tasks.</li>
+                                <li>Debugged and corrected code written by LLMs.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li><li>pandas</li><li>matplotlib</li><li>altair</li><li>LLMs</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Projects -->
+            <section id="projects" class="section reveal">
+                <div class="section-head">
+                    <span class="section-num">03</span>
+                    <h2>Projects</h2>
+                </div>
+                <div class="projects">
+                    <article class="project card">
+                        <div class="project-media">
+                            <img src="resources/dqn-showcase.gif" alt="A car learning to drive around a track" loading="lazy"/>
+                        </div>
+                        <div class="project-body">
+                            <h3>Deep Q-Network Racecar</h3>
+                            <p>A car learns to drive around a track with Deep Q-Learning. I wrote a custom OpenAI Gym environment around a game I built in pygame, then trained a DQN agent on it with PyTorch.</p>
+                            <ul class="tags">
+                                <li>PyTorch</li><li>Reinforcement Learning</li><li>OpenAI Gym</li><li>pygame</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="project card">
+                        <div class="project-media">
+                            <img src="resources/sudoku-showcase.gif" alt="A Sudoku puzzle being solved step by step" loading="lazy"/>
+                        </div>
+                        <div class="project-body">
+                            <h3>Python Sudoku Solver</h3>
+                            <p>A visual solver that uses depth-first search with backtracking to solve any valid Sudoku puzzle, and shows each step as it searches.</p>
+                            <ul class="tags">
+                                <li>Python</li><li>Algorithms</li><li>DFS / Backtracking</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <a class="more-link" href="https://github.com/tylerdonovan2" target="_blank" rel="noopener">More on GitHub <span aria-hidden="true">→</span></a>
+            </section>
+
+            <!-- Education -->
+            <section id="education" class="section reveal">
+                <div class="section-head">
+                    <span class="section-num">04</span>
+                    <h2>Education</h2>
+                </div>
+                <div class="edu-grid">
+                    <div class="card edu">
+                        <span class="date">2024 – 2028 (expected)</span>
+                        <h3>Oakland University</h3>
+                        <p class="card-org">Artificial Intelligence degree (in progress)</p>
+                        <div class="edu-meta">
+                            <span><strong>3.8</strong> / 4.0 GPA</span>
+                            <span>Division 1 Track &amp; Field</span>
+                        </div>
+                    </div>
+                    <div class="card edu">
+                        <span class="date">2019 – 2024</span>
+                        <h3>Fraser High School</h3>
+                        <p class="card-org">High School Diploma, Macomb Mathematics Science Technology Center</p>
+                        <div class="edu-meta">
+                            <span><strong>4.1</strong> / 4.0 GPA</span>
+                            <span>All-State Track Captain</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills" class="section reveal">
+                <div class="section-head">
+                    <span class="section-num">05</span>
+                    <h2>Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="card skill-group">
+                        <h3><span class="skill-icon">{ }</span>Technical</h3>
+                        <ul class="chips">
+                            <li>Python</li><li>Machine Learning</li><li>Agentic AI</li><li>Model Context Protocol</li><li>FastMCP</li>
+                        </ul>
+                    </div>
+                    <div class="card skill-group">
+                        <h3><span class="skill-icon">[ ]</span>Libraries</h3>
+                        <ul class="chips">
+                            <li>pandas</li><li>polars</li><li>scikit-learn</li><li>plotly</li><li>Dash</li><li>matplotlib</li><li>altair</li><li>PyTorch</li>
+                        </ul>
+                    </div>
+                    <div class="card skill-group">
+                        <h3><span class="skill-icon">&lt;/&gt;</span>Professional</h3>
+                        <ul class="chips">
+                            <li>Critical Thinking</li><li>Problem Solving</li><li>Communication</li><li>Teamwork</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="section contact reveal">
+                <div class="section-head">
+                    <span class="section-num">06</span>
+                    <h2>Contact</h2>
+                </div>
+                <div class="card contact-card">
+                    <h3 class="contact-title">Let's build something.</h3>
+                    <p>I'm interested in AI engineering roles and research. The best way to reach me is email.</p>
+                    <div class="contact-actions">
+                        <button class="btn btn-primary copy-email" data-email="tylerdonovan1506@gmail.com">
+                            <span class="copy-label">tylerdonovan1506@gmail.com</span>
+                        </button>
+                        <a class="btn btn-ghost" href="tel:+15862024014">(586) 202-4014</a>
+                        <a class="btn btn-ghost" href="https://www.linkedin.com/in/tyler-m-donovan2/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a class="btn btn-ghost" href="https://github.com/tylerdonovan2" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© <span class="year">2026</span> Tyler Donovan. Built from scratch with HTML, CSS &amp; JS.</p>
+        </footer>
+
+        <script src="scripts/index.js"></script>
     </body>
-    <script src="scripts/index.js"></script>
 </html>
