@@ -1033,3 +1033,14 @@ main{
         transform: none;
     }
 }
+
+.footer a{
+    color: var(--text-muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+}
+
+.footer a:hover{
+    color: var(--text);
+}
