@@ -119,21 +119,5 @@ if (!prefersReducedMotion && window.matchMedia("(hover: hover)").matches) {
     });
 }
 
-// --- Copy email to clipboard ---
-const copyButton = document.querySelector(".copy-email");
-if (copyButton) {
-    const label = copyButton.querySelector(".copy-label");
-    const email = copyButton.dataset.email;
-    copyButton.addEventListener("click", async () => {
-        try {
-            await navigator.clipboard.writeText(email);
-            label.textContent = "Copied to clipboard!";
-            setTimeout(() => { label.textContent = email; }, 1800);
-        } catch {
-            window.location.href = "mailto:" + email;
-        }
-    });
-}
-
 // --- Footer year ---
 document.querySelector(".year").textContent = new Date().getFullYear();
